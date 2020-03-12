@@ -15,12 +15,12 @@ public class PersonController {
     @Autowired
     PersonService service;
 /*
-
+ */
     @RequestMapping("/api/person/list")
     public List<Person> getAll() {
         return service.getAll();
     }
-*/
+
 
     @RequestMapping("/api/garbage/list")
     public List<Person> getTrash() {
